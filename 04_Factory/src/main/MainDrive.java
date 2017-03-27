@@ -5,7 +5,7 @@ import behavior.weapon.*;
 import factory.fm.*;
 
 
-public class TestDrive {
+public class MainDrive {
 	
 	public static void main(String[] args){		
 		
@@ -48,9 +48,9 @@ public class TestDrive {
 		System.out.println("3. 추상 팩토리패턴을 이용하여 적팀유닛을 종류별로 생성한다. (기본 정보출력)");
 		System.out.println("=======================================================");
 		
-		ru = btf.makeUnit("Mage");
-		ru = btf.makeUnit("Civilian");
-		ru = btf.makeUnit("Knight");
+		ru = rtf.makeUnit("Mage");
+		ru = rtf.makeUnit("Civilian");
+		ru = rtf.makeUnit("Knight");
 		System.out.println();
 		
 		
