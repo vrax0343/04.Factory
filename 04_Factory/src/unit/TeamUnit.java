@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import behavior.attack.AttackBehavior;
 import behavior.movement.MovementBehavior;
 import behavior.weapon.WeaponBehavior;
+import factory.af.TeamName;
 import function.GenerateRandomPosition;
 
 public abstract class TeamUnit {
