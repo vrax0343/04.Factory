@@ -18,7 +18,7 @@ public class BlueTeamFactory extends TeamFactoryStore {
 			teamUnit = new CivilianTeamUnit(atf);
 			teamUnit.setName("블루 시민");
 		}else if (item.equals("Knight")) {
-			teamUnit = new CivilianTeamUnit(atf);
+			teamUnit = new KnightTeamUnit(atf);
 			teamUnit.setName("블루 기사");
 		}
 
