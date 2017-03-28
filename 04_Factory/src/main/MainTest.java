@@ -5,7 +5,7 @@ import behavior.weapon.*;
 import factory.fm.*;
 
 
-public class MainDrive {
+public class MainTest {
 	
 	public static void main(String[] args){		
 		
